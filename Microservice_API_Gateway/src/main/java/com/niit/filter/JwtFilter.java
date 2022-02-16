@@ -1,4 +1,4 @@
-package com.niit.authenticationservice.filter;
+package com.niit.filter;
 
 import java.io.IOException;
 

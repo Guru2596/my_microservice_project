@@ -19,7 +19,7 @@ import com.niit.product.repo.ProductRepository;
 import com.niit.product.service.ProductService;
 
 @RestController
-@RequestMapping("/api/v1")
+@RequestMapping("/api/v2")
 public class ProductController {
 
 	@Autowired

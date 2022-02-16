@@ -39,3 +39,19 @@ services:
     depends_on:
       - mysqlservice
     restart: always
+
+  cloudapiservice:
+    image: cloude-api-service
+    build: Microservice_API_Gateway/
+    restart: always
+    network_mode: host
+    ports:
+      - 9000:9000
+    environment:
+      API_GATEWAY_PORT: 9000
+
+
+
+
+
+
